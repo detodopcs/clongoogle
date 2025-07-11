@@ -1,2 +1,3 @@
 # clongoogle
-proyecto de frontend Clon de Google
+proyecto de frontend Clon de Google en HTML CSS Y JS
+
