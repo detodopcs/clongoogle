@@ -1,0 +1,92 @@
+
+body{
+    /*background: peru;*/
+}
+
+input[type="text"]:focus{
+    border-color: transparent;
+     outline: none; 
+}
+
+.l-container,
+[class*="l-container--"] {
+  max-width : 1200px;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+
+.google-clon{
+    width: 100%;
+    margin-top: 3rem;
+    
+}
+
+.google-clon-content{
+    /*background:green;*/
+}
+
+.google-clon-content_logo{
+    display: table;    
+    margin:0 auto;
+}
+
+.google-clon-box{    
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    position: relative;
+    margin-top:1rem;
+    background: #fff;  
+    border-radius: 30px;  
+    transition: all linear .2s; 
+    border:2px solid #aaabaa;
+    
+}
+
+.google-clon-box:hover{
+    box-shadow: 5px 5px #888888;
+}
+
+
+.input-box{
+    
+    background-color: transparent;
+    border: transparent;
+    width: 60%;
+    padding: 1.5rem 2rem;     
+    position: relative; 
+    z-index: 1;     
+    font-size: 1.2rem;
+}
+
+
+.micro,.lupa{
+    width: 50px;
+    height: 50px;
+    padding:.5rem 0 0 0;
+    margin-left: .5rem;
+}
+
+.botones-box{
+    /*background: lightgreen;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn-buscar,.btn-suerte{
+    background: #81a9b5;
+    padding: 1rem;
+    text-decoration: none;
+    border:2px solid #e9faff;
+    transition: all linear .2s;
+    color:black;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.btn-buscar:hover,.btn-suerte:hover{
+    border:2px solid #484848;
+}
